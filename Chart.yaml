@@ -1,4 +1,4 @@
-apiVersion: v1
+apiVersion: v2
 appVersion: "1.16.2"
 description: FreshRSS is a self-hosted RSS feed aggregator.
 name: freshrss
@@ -9,3 +9,7 @@ sources:
 maintainers:
   - name: Gavin Mogan
     email: helm@gavinmogan.com
+dependencies:
+- name: mysql
+  version: "6.x.x"
+  repository: "https://charts.bitnami.com/bitnami"
