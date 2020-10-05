@@ -10,6 +10,6 @@ maintainers:
   - name: Gavin Mogan
     email: helm@gavinmogan.com
 dependencies:
-- name: mysql
+- name: redis
   version: "6.x.x"
   repository: "https://charts.bitnami.com/bitnami"
